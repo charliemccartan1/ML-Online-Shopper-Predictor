@@ -1,1 +1,1 @@
-# ML-Online-Shopper-Predictor
+# Online-Shopping-Predictor
