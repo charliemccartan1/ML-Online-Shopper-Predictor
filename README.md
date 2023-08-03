@@ -1,1 +1,5 @@
-# Online-Shopping-Predictor
+## Online-Shopping-Predictor
+
+This Python script performs an analysis on shopping data using the k-nearest neighbor (k=1) algorithm from scikit-learn library. The data is loaded from a CSV file, that contains information such as time spent on a product's page, time spent on the other pages on the website, day of the week and many more (12 variables in total). The data is then split into training and testing sets. The model is trained on the training data and used to make predictions on the testing data. The script evaluates the accuracy of the model and prints the results, including the number of correct and incorrect predictions, as well as the true positive and true negative rates.
+
+To use the script, provide the path to the CSV file containing the shopping data as a command-line argument when running the script. The data in the CSV file should adhere to the specified format for the script to function correctly. The script offers insights into the effectiveness of the k-nearest neighbor model in predicting shopping behavior based on the provided dataset.
