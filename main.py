@@ -124,8 +124,6 @@ def evaluate(labels, predictions):
             positives += 1
         elif label == 0:
             negatives += 1
-
-    #print(positives)
     
     true_positive = 0
     true_negative = 0
